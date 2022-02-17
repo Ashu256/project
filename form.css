@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	scrollbar: none;
+}
+.header {
+	background-image: url(image/Background.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+}
+.label {
+	font-weight: bold;
+}
+.logo {
+	display: inline-block;
+	color: whitesmoke;
+	background-image: url(image/phone.png);
+	background-size: 100%;
+	background-color: #12354b;
+	width: 322px;
+	height: 400px;
+	text-align: center;
+	margin: 5rem 0 0 20rem;
+	position: absolute;
+}
+.logo h1 {
+	padding-top: 3rem;
+}
+.login {
+	display: inline-block;
+	margin: 5rem 0 0 40.1rem;
+	background-size: 100%;
+	background-color: rgb(240, 230, 230);
+	width: 270px;
+	height: 351.7px;
+	position: absolute;
+	padding: 3rem 0 0 3rem;
+}
+.field {
+	padding: .8rem 2.8rem .8rem .6rem;
+	border: solid grey 1px;
+	border-radius: 4px;
+}
+.btn {
+	padding: .8rem 3.1rem;
+	font-weight: bold;
+	font-size: 14px;
+	border: 0;
+	border-radius: 4px;
+	background-color: rgb(4, 34, 41);
+	color: whitesmoke;
+}

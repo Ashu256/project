@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+	line-height: 1.4rem;
+}
+.navbar {
+	position: fixed;
+	text-align: center;
+	margin: 1.5rem 1rem 1.5rem 3rem;
+	padding: .5rem 3rem .5rem 4.2rem;
+	background-color: #d0d3d4;
+	border-radius: 2rem;
+}
+.nav-logo {
+	display: inline-block;
+	font-weight: bolder;
+	margin-right: 14rem;
+}
+.nav-content {
+	display: inline-block;
+	list-style: none;
+}
+.nav-content li {
+	display: inline-block;
+	padding: 0 1.6rem;
+}
+.nav-btn {
+	border: 0;
+	background-color: azure;
+	margin-left: 14rem;
+	padding: 8px 18px;
+	font-size: large;
+	font-weight: 300;
+	border-radius: 20px;
+	background-color: #1e3163;
+	color: azure;
+}
+.nav-btn:hover {
+	background-color: #051827;
+	color: rgb(247, 246, 252);
+}
+.header {
+	background-color: #fdedec;
+}
+.header img {
+	display: inline-block;
+	width: 350px;
+	padding: 5.3rem 0 0 15rem;
+	float: left;
+}
+.header h1 {
+	line-height: 2rem;
+	margin-bottom: .5rem;
+	padding: 12rem 0 0 38rem;
+}
+.header p {
+	padding: 0 0 5rem 38rem;
+	font-size: large;
+	color: #1e2933;
+}
+.middle {
+	background-color: #eafaf1;
+}
+.middle img {
+	float: right;
+	padding: 4rem 16rem 0 1rem;
+}
+.middle p {
+	padding: 1rem 0 3.5rem 15rem;
+	font-size: large;
+	color: #1e2933;
+}
+.middle h1 {
+	padding: 12rem 0 0 15rem;
+}
+.buttom {
+	background-color: #ebf5fb;
+}
+.buttom img {
+	display: inline-block;
+	width: 350px;
+	padding: 4rem 0 0 15rem;
+	float: left;
+}
+.buttom h1 {
+	line-height: 2rem;
+	margin-bottom: .5rem;
+	padding: 12rem 0 0 38rem;
+}
+.buttom p {
+	padding: 0 14rem 5rem 38rem;
+	font-size: large;
+	color: #1e2933;
+}
+a {
+	text-decoration: none;
+	color: rgb(42, 42, 44);
+	font-size: large;
+}
+a:hover {
+	color: #641e16;
+	text-decoration: underline;
+}
